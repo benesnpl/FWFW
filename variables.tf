@@ -12,7 +12,7 @@ variable "coid" {
 
 variable "azs" {
 	type = list
-	default = ["eu-west-1a", "eu-west-1b"]
+	default = ["eu-central-1a", "eu-central-1b"]
 }
 
 variable "subnets_cidr_public" {
